@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int a=5;
+    int b=5;
+    int c=a+b;
+    ++c;
+    printf("%d",c);
+    //Your Code goes here!
+    
+    return 0;
+}
