@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+int main() {
+    int amt;
+    scanf("%d", &amt);
+
+    if (amt%100==0){
+        printf("VALID");
+    }
+    else{
+        printf("INVALID");
+    }
+    
+
+    return 0;
+}
