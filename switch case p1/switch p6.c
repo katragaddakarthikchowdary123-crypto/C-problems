@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int amount, speed;
+    int charge = 0;
+    scanf("%d %d", &amount, &speed);
+
+    switch(speed) {
+        case 1: charge = 50; break;
+        case 2:
+            if(amount >= 1000) charge = 0;
+            else charge = 100;
+            break;
+    }
+
+    printf("Delivery ₹%d", charge);
+    return 0;
+}
